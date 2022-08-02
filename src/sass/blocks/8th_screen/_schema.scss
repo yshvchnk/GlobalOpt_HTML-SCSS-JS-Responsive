@@ -1,0 +1,29 @@
+.schema {
+    min-height: 455px;
+    padding: 51px 0 45px 0;
+    background: #f3f3f3;
+    &__block {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        &-item {
+            margin: 5px;
+            width: 250px;
+            display: grid;
+            grid-template-rows: 50px 30px 70px;
+            justify-items: center;
+        }
+        &-title {
+            align-self: center;
+        }
+        &-text {
+            font-size: 14px;
+            line-height: 17px;
+            color: $color-black;
+            font-weight: 400;
+        }
+    }
+}

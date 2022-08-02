@@ -1,0 +1,20 @@
+.managers {
+    min-height: 342px;
+    padding: 61px 0 72px 0;
+    background: url(../img/7th_screen/bg_managers.png) center center / cover no-repeat;
+    text-align: center;
+    &__title {
+        font-size: 26px;
+        line-height: 23px;
+        color: $color-white;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+    &__text {
+        font-size: 19px;
+        line-height: 27px;
+        color: $color-white;
+        font-weight: 300;
+        margin-top: 16px;
+    }
+}

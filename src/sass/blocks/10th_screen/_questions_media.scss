@@ -1,0 +1,35 @@
+@media screen and (max-width: 992px) {
+    .questions {
+        &__form {
+            width: 96%;
+            grid-template-columns: 100%;
+            grid-template-rows: 69px 63px 63px 63px 90px 87px;
+            &-input {
+                width: 90%;
+                grid-column: 1 /2;
+                justify-self: center;
+                border-radius: 10% / 90%;
+            }
+            &-textarea {
+                width: 90%;
+                grid-column: 1 /2;
+            }
+            &-title {
+                grid-column: 1 /2;
+            }
+            &-btn {
+                grid-column: 1 /2;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .questions {
+        &__form {
+            &-input {
+                border-radius: 10px;
+            }
+        }
+    }
+}

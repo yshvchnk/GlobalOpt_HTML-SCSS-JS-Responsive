@@ -1,0 +1,30 @@
+.advantages {
+    padding: 60px 0 73px 0;
+    background-color: #f3f3f3;
+    min-height: 591px;
+    &__blocks {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__block {
+        margin-top: 30px;
+        width: 500px;
+        display: grid;
+        grid-template-columns: 60px 440px;
+        grid-template-rows: auto auto;
+        column-gap: 20px;
+        row-gap: 10px;
+        img {
+            width: 100%;
+            grid-row: 1 / 3;
+            align-self: center;
+        }
+        &-text {
+            font-size: 14px;
+            line-height: 17px;
+            color: $color-black;
+            font-weight: 400;
+        }
+    }
+}

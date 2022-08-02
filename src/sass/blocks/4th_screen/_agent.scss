@@ -1,0 +1,26 @@
+.agent {
+    min-height: 342px;
+    padding: 77px 0;
+    background: url(../img/4th_screen/bg_agent.png) center center / cover no-repeat;
+    &__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        font-size: 26px;
+        line-height: 23px;
+        color: $color_white;
+        font-weight: 700;
+        margin-top: 21px;
+    }
+    &__text {
+        font-size: 19px;
+        line-height: 27px;
+        color: $color_white;
+        font-weight: 300;
+        margin-top: 21px;
+        text-align: center;
+    }
+}

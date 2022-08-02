@@ -1,0 +1,74 @@
+.references {
+    min-height: 458px;
+    padding: 48px 0 56px 0;
+    &__title {
+        position: relative;
+        @include orange_line;
+    }
+    &__blocks {
+        margin-top: 28px;
+        position: relative;
+    }
+    &__item {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &-img {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 13px;
+            img {
+                width: 100%;
+            }
+        }
+        &-title {
+            font-size: 18px;
+            line-height: 22px;
+            color: $color-black;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        &-text {
+            font-size: 15px;
+            line-height: 20px;
+            color: $color-black;
+            font-weight: 400;
+            text-align: justify;
+            text-align-last: center;
+        }
+    }
+}
+
+.owl-nav {
+    button {
+        span {
+            position: absolute;
+            font-size: 100px;
+            color: $main-color;
+            left: 42%;
+            top: -10%;
+            &[aria-label="Next"] {
+                left: 55%;
+            }
+        }
+    }
+}
+
+.owl-carousel {
+    .owl-stage-outer {
+        .owl-stage {
+            .owl-item.active {
+                transform: scale(0.6);
+                opacity: 0.5;
+                transition: all .5s;
+                &.center {
+                    transform: scale(1);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

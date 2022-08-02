@@ -1,0 +1,18 @@
+@media screen and (max-width: 1200px) {
+    .more {
+        &__blocks {
+            justify-content: center;
+        }
+        &__block {
+            margin: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .more {
+        &__block {
+            width: 90%;
+        }
+    }
+}

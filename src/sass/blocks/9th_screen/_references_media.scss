@@ -1,0 +1,29 @@
+@media screen and (max-width: 1905px) {
+    .references {
+        &__item {
+            width: 30vw;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .owl-nav {
+        button {
+            span {
+                left: 39%;
+                &[aria-label="Next"] {
+                    left: 58%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .references {
+        &__item {
+            width: 80vw;
+            margin: 0 auto;
+        }
+    }
+}

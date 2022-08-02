@@ -1,0 +1,12 @@
+@media screen and (max-width: 1200px) {
+    .advantages {
+        &__blocks {
+            justify-content: center;
+        }
+        &__block {
+            width: 80%;
+            text-align: center;
+            grid-template-columns: 60px calc(100% - 60px - 20px);
+        }
+    }
+}

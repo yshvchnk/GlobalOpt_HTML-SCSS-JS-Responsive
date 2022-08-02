@@ -1,0 +1,49 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import 'libs/owl.carousel';
+@import 'libs/owl.theme.default';
+
+@import 'base/variables';
+@import 'base/btn';
+@import 'base/titles';
+@import 'base/mixins';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/1st_screen_header/promo';
+@import 'blocks/2nd_screen/advantages';
+@import 'blocks/3rd_screen/more';
+@import 'blocks/4th_screen/agent';
+@import 'blocks/5th_screen/prices';
+@import 'blocks/6th_screen/consultation';
+@import 'blocks/7th_screen/managers';
+@import 'blocks/8th_screen/schema';
+@import 'blocks/9th_screen/references';
+@import 'blocks/10th_screen/questions';
+@import 'blocks/11th_screen/map';
+@import 'blocks/footer/footer';
+@import 'blocks/modal/modal';
+
+@import 'base/media';
+@import 'blocks/1st_screen_header/promo_media';
+@import 'blocks/2nd_screen/advantages_media';
+@import 'blocks/3rd_screen/more_media';
+@import 'blocks/4th_screen/agent_media';
+@import 'blocks/5th_screen/prices_media';
+@import 'blocks/6th_screen/consultation_media';
+@import 'blocks/7th_screen/managers_media';
+@import 'blocks/8th_screen/schema_media';
+@import 'blocks/9th_screen/references_media';
+@import 'blocks/10th_screen/questions_media';
+@import 'blocks/11th_screen/map_media';
+@import 'blocks/footer/footer_media';
+@import 'blocks/modal/modal_media';
