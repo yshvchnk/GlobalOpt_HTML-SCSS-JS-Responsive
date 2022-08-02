@@ -26,7 +26,7 @@
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon/apple-touch-icon.png">
-    <link rel="android-chrome" sizes="96x96" href="icons/favicon/android-chrome-96x96.png">
+    <link rel="icon" sizes="96x96" href="icons/favicon/android-chrome-96x96.png">
     <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png">
     <link rel="manifest" href="icons/favicon/site.webmanifest">
@@ -51,13 +51,15 @@
                     <div class="promo__hamburger">
                         <span></span><span></span><span></span>
                     </div>
-                    <nav class="promo__nav">
-                        <li><a href="#advantages">Переваги</a></li>
-                        <li><a href="#ourwork">Наша робота</a></li>
-                        <li><a href="#prices">Ціни</a></li>
-                        <li><a href="#schema">Схема роботи</a></li>
-                        <li><a href="#references">Відгуки</a></li>
-                        <li><a href="#contacts">Контакти</a></li>
+                    <nav>
+                        <ul class="promo__nav">
+                            <li><a href="#advantages">Переваги</a></li>
+                            <li><a href="#ourwork">Наша робота</a></li>
+                            <li><a href="#prices">Ціни</a></li>
+                            <li><a href="#schema">Схема роботи</a></li>
+                            <li><a href="#references">Відгуки</a></li>
+                            <li><a href="#contacts">Контакти</a></li>
+                        </ul>
                     </nav>
                     <div class="promo__header_empty"></div>
                     <div class="promo__phone">
@@ -241,7 +243,7 @@
                 <h2 class="consultation__title">Замовити безкоштовну консультацію</h2>
                 <img src="img/6th_screen/consultation.png" alt="consultation">
                 <form class="consultation__form" action="#" name="free-consultation" novalidate="novalidate">
-                    <input class="consultation__form-input" id="neme" type="text" name="name" placeholder="Ваше ім'я..." required>
+                    <input class="consultation__form-input" id="name" type="text" name="name" placeholder="Ваше ім'я..." required>
                     <input class="consultation__form-input" id="phone" type="tel" name="phone" placeholder="Ваше номер телефону..." required>
                     <input class="consultation__form-input" id="email" type="email" name="email" placeholder="Ваш e-mail..." required>
                     <button class="btn consultation__form-btn" type="submit">Відправити заявку</button>
@@ -402,9 +404,9 @@
             <div class="modal__close">&times;</div>
             <div class="modal__title consultation__title">Замовити безкоштовну консультацію</div>
             <form class="modal__form consultation__form" action="#" name="free-consultation" novalidate="novalidate">
-                <input class="modal__form-input consultation__form-input" id="neme" type="text" name="name" placeholder="Ваше ім'я..." required>
-                <input class="modal__form-input consultation__form-input" id="phone" type="tel" name="phone" placeholder="Ваше номер телефону..." required>
-                <input class="modal__form-input consultation__form-input" id="email" type="email" name="email" placeholder="Ваш e-mail..." required>
+                <input class="modal__form-input consultation__form-input" id="name-m" type="text" name="name" placeholder="Ваше ім'я..." required>
+                <input class="modal__form-input consultation__form-input" id="phone-m" type="tel" name="phone" placeholder="Ваше номер телефону..." required>
+                <input class="modal__form-input consultation__form-input" id="email-m" type="email" name="email" placeholder="Ваш e-mail..." required>
                 <button class="modal__form-btn btn consultation__form-btn" type="submit">Відправити заявку</button>
             </form>
         </div>
